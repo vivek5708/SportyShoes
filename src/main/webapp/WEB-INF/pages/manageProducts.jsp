@@ -12,6 +12,8 @@
 <body>
 <div style="margin: auto; width: 60%; padding: 10px;">
 <h1>Follwing are the List of All Products</h1>
+	<h3>To Add a New Product Click Below</h3>
+	<a class="btn btn-info" href="http://localhost:8090/mainapp/addProduct">Add Product</a>
 	<table class="table table-striped">
 		<thead>
 			<tr>

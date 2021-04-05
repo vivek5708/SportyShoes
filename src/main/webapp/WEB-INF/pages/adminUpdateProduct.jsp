@@ -11,19 +11,19 @@
 	rel="stylesheet">
 <body>
 <div style="margin: auto; width: 60%; padding: 10px;">
-Update the Product
+<h1>Update the Product</h1>
 <form method="post">
-Name :<input type="text" class="form-control" placeholder="${footwearObj.getName()}" name="prodName">
+<h4>Name :</h4><input type="text" class="form-control" placeholder="${footwearObj.getName()}" name="prodName">
 <br/>
-Brand :<input type="text" class="form-control" placeholder="${footwearObj.getBrand()}" name="prodBrand">
+<h4>Brand :</h4><input type="text" class="form-control" placeholder="${footwearObj.getBrand()}" name="prodBrand">
 <br/>
-Price :<input type="text" class="form-control" placeholder="${footwearObj.getPrice()}" name="prodPrice">
+<h4>Price :</h4><input type="text" class="form-control" placeholder="${footwearObj.getPrice()}" name="prodPrice">
 <br/>
-productType:<input type="text" class="form-control" placeholder="${footwearObj.getProductType()}" name="prodType">
+<h4>productType:</h4><input type="text" class="form-control" placeholder="${footwearObj.getProductType()}" name="prodType">
 <br/>
-imageUrl:<input type="text" class="form-control" placeholder="${footwearObj.getImageUrl()}" name="prodImgUrl">
+<h4>imageUrl:</h4><input type="text" class="form-control" placeholder="${footwearObj.getImageUrl()}" name="prodImgUrl">
 <br/>
-productDesc:<input type="text" class="form-control" placeholder="${footwearObj.getProductDesc()}" name="prodDesc">
+<h4>productDesc:</h4><input type="text" class="form-control" placeholder="${footwearObj.getProductDesc()}" name="prodDesc">
 <br/>
 <a href="http://localhost:8090/mainapp/manageProducts"><button type="submit"> Submit</button></a>
 </form>

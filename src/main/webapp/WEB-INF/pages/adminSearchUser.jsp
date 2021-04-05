@@ -13,8 +13,12 @@
 <div style="margin: auto; width: 60%; padding: 10px;">
 <h2>Following are the Users who Signed Up</h2>
 	<form method="post">
-			<input class="form-control" type="text" name="username" placeholder="User Name">
-			<button type="submit">Search</button>
+			<div class="col-md-9">
+				<input class="form-control" type="text" name="username" placeholder="User Name">
+			</div>
+			<div class="col-md-3">
+				<button type="submit" class="btn btn-success">Search</button>
+			</div>
 	</form>
 	<table class="table table-striped">
 		<thead>
